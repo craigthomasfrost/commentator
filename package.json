@@ -1,0 +1,21 @@
+{
+  "name": "comment-commentator",
+  "version": "1.0.0",
+  "description": "A microservice to flag whether a comment is likely to require moderation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "keywords": [
+    "comment",
+    "sentiment",
+    "moderate",
+    "langauage"
+  ],
+  "author": "Craig Frost",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^7.0.6",
+    "sentiment": "^3.0.1"
+  }
+}
